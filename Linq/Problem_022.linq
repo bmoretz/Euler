@@ -1,7 +1,4 @@
-<Query Kind="Statements">
-  <Reference>&lt;RuntimeDirectory&gt;\System.Drawing.dll</Reference>
-  <Namespace>System.Drawing</Namespace>
-</Query>
+<Query Kind="Statements" />
 
 /*
 
@@ -23,7 +20,7 @@ A: 871198282
 
 */
 
-const string namesTextPath = @"C:\Users\Brandon\Documents\LINQPad Queries\Project Euler\names.txt";
+const string namesTextPath = @"..\Data\names.txt";
 const string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
 
 List<char> lookup = new List<char>();

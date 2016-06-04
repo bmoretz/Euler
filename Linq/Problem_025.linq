@@ -1,7 +1,5 @@
 <Query Kind="Program">
-  <Reference>&lt;RuntimeDirectory&gt;\System.Drawing.dll</Reference>
   <Reference>&lt;RuntimeDirectory&gt;\System.Numerics.dll</Reference>
-  <Namespace>System.Drawing</Namespace>
   <Namespace>System.Numerics</Namespace>
 </Query>
 

@@ -1,7 +1,4 @@
-<Query Kind="Statements">
-  <Reference>&lt;RuntimeDirectory&gt;\System.Drawing.dll</Reference>
-  <Namespace>System.Drawing</Namespace>
-</Query>
+<Query Kind="Statements" />
 
 /*
 

@@ -1,11 +1,4 @@
 <Query Kind="Program">
-  <Connection>
-    <ID>2f8c41c6-3ee3-4031-b3f5-2a47f4f9e555</ID>
-    <Persist>true</Persist>
-    <Server>.\SQLEXPRESS</Server>
-    <Database>AdventureWorks</Database>
-    <ShowServer>true</ShowServer>
-  </Connection>
   <Reference>&lt;RuntimeDirectory&gt;\System.Drawing.dll</Reference>
   <Reference>&lt;RuntimeDirectory&gt;\System.Numerics.dll</Reference>
   <Namespace>System.Drawing</Namespace>

@@ -1,27 +1,6 @@
 <Query Kind="Program">
-  <Reference>&lt;RuntimeDirectory&gt;\System.Drawing.dll</Reference>
   <Reference>&lt;RuntimeDirectory&gt;\System.Numerics.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.XML.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Windows.Forms.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Xaml.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\System.Xml.Linq.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\WPF\WindowsBase.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\WPF\PresentationCore.dll</Reference>
-  <Reference>C:\Projects\Libraries\HtmlAgilityPack\HtmlAgilityPack.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\WPF\PresentationFramework.dll</Reference>
-  <Reference>&lt;RuntimeDirectory&gt;\WPF\System.Windows.Presentation.dll</Reference>
-  <Reference>C:\Projects\Misc\DynamicLinq\DynamicLinq\bin\Release\DynamicLinq.dll</Reference>
-  <Namespace>System.Drawing</Namespace>
   <Namespace>System.Numerics</Namespace>
-  <Namespace>System.Linq</Namespace>
-  <Namespace>System.Linq.Expressions</Namespace>
-  <Namespace>System.Linq.Dynamic</Namespace>
-  <Namespace>System.Reflection</Namespace>
-  <Namespace>System.Reflection.Emit</Namespace>
-  <Namespace>System.Xml</Namespace>
-  <Namespace>System.Xml.Linq</Namespace>
-  <Namespace>System.Windows.Controls</Namespace>
-  <Namespace>HtmlAgilityPack</Namespace>
 </Query>
 
 /*
@@ -43,7 +22,7 @@ NOTE: This is a much more difficult version of Problem 18. It is not possible to
 
 void Main()
 {
-	string triangle = String.Join( "\n", File.ReadAllLines(@"C:\Users\Brandon\Documents\LINQPad Queries\Project Euler\triangle.txt") );
+	string triangle = String.Join( "\n", File.ReadAllLines(@"..\Data\triangle.txt") );
 	
 	List<List<int>> numbers = ParseTriangle( triangle );
 	
